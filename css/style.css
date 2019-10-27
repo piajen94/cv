@@ -74,7 +74,7 @@ ol {
 .section-title h2 {
 	display: inline-block;
 	position: relative;
-	margin-bottom: 110px;
+	margin-bottom: 50px;
 	padding-bottom: 2px;
 	line-height: normal;
 }
@@ -810,7 +810,7 @@ ol {
 
 .home-three-style .main-left-area .section-title h2,
 .home-four-style .main-left-area .section-title h2 {
-	margin-bottom: 130px;
+	margin-bottom: 0px;
 }
 
 .home-three-style .main-right-area,
