@@ -27,7 +27,7 @@ h6 {
 }
 
 h2 {
-	font-size: 48px;
+	font-size: 30px;
 }
 
 h3 {
@@ -51,7 +51,12 @@ textarea:focus {
 	outline: none;
 }
 
-a:hover,
+a {
+    color: white;
+}
+a:hover{
+    color: #b9b9b9
+},
 a:focus {
 	text-decoration: none;
 	outline: none;
@@ -67,14 +72,14 @@ ol {
 	Helper CSS
 -----------------------*/
 .spad {
-	padding-top: 125px;
-	padding-bottom: 110px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .section-title h2 {
 	display: inline-block;
 	position: relative;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 	padding-bottom: 2px;
 	line-height: normal;
 }
@@ -155,7 +160,7 @@ ol {
 .site-btn {
 	display: inline-block;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 18px;
 	min-width: 213px;
 	min-height: 20px;
 	text-align: center;
@@ -198,7 +203,7 @@ ol {
 }
 
 .circle-progress .progress-info h2 {
-	font-size: 36px;
+	font-size: 30px;
 	color: #40424a !important;
 }
 
@@ -208,12 +213,12 @@ ol {
 }
 
 .circle-progress .prog-title h3 {
-	font-size: 16px;
+	font-size: 18px;
 	text-transform: uppercase;
 }
 
 .circle-progress .prog-title p {
-	font-size: 15px;
+	font-size: 18px;
 	color: #808181 !important;
 }
 
@@ -260,7 +265,7 @@ ol {
 }
 
 .fact-box .fact-content h2 {
-	font-size: 36px;
+	font-size: 30px;
 	color: #fff;
 }
 
@@ -312,7 +317,7 @@ ol {
 }
 
 .language-progress li {
-	font-size: 24px;
+	font-size: 18px;
 	position: relative;
 	padding-right: 150px;
 	margin-bottom: 30px;
@@ -349,7 +354,7 @@ ol {
 }
 
 .icon-box i {
-	font-size: 60px;
+	font-size: 30px;
 }
 
 .icon-box p {
@@ -371,7 +376,7 @@ ol {
 }
 
 .site-logo h2 {
-	font-size: 36px;
+	font-size: 30px;
 }
 
 .site-logo h2 a {
@@ -379,7 +384,7 @@ ol {
 }
 
 .site-logo p {
-	font-size: 14px;
+	font-size: 18px;
 	line-height: normal;
 }
 
@@ -399,13 +404,13 @@ ol {
 }
 
 .hero-text h2 {
-	font-size: 170px;
+	font-size: 30px;
 	line-height: normal;
 	margin-bottom: 20px;
 }
 
 .hero-text p {
-	font-size: 33px;
+	font-size: 18px;
 	line-height: 1.3;
 }
 
@@ -422,7 +427,7 @@ ol {
 }
 
 .hero-info ul li {
-	font-size: 24px;
+	font-size: 18px;
 	color: #808181;
 	margin-bottom: 15px;
 }
@@ -454,7 +459,7 @@ ol {
 
 .social-section .social-links a {
 	color: #484848;
-	font-size: 36px;
+	font-size: 30px;
 	margin-right: 40px;
 }
 
@@ -521,16 +526,16 @@ ol {
 }
 
 .resume-list h2 {
-	font-size: 72px;
+	font-size: 30px;
 	margin-bottom: 10px;
 }
 
 .resume-list h4 {
-	font-size: 16px;
+	font-size: 18px;
 	text-transform: uppercase;
 	color: #808181;
 	margin-top: 10px;
-	margin-bottom: 45px;
+	margin-bottom: 10px;
 }
 
 .resume-list p {
@@ -564,7 +569,7 @@ ol {
 }
 
 .single-review .qut {
-	font-size: 120px;
+	font-size: 30px;
 	line-height: 0;
 	color: #505259;
 	margin-top: 60px;
@@ -575,12 +580,12 @@ ol {
 }
 
 .single-review h3 {
-	font-size: 24px;
+	font-size: 30px;
 	margin-bottom: 10px;
 }
 
 .single-review h4 {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 /*---------------------
@@ -591,12 +596,12 @@ ol {
 }
 
 .portfolio-item h2 {
-	font-size: 24px;
+	font-size: 30px;
 	margin-bottom: 5px;
 }
 
 .portfolio-item p {
-	font-size: 14px;
+	font-size: 18px;
 	margin-bottom: 0;
 }
 
@@ -648,7 +653,7 @@ ol {
 	border: none;
 	border-bottom: 2px solid #cacaca;
 	margin-bottom: 30px;
-	font-size: 13px;
+	font-size: 18px;
 }
 
 .contact-form textarea {
@@ -658,7 +663,7 @@ ol {
 	border: none;
 	border-bottom: 2px solid #cacaca;
 	margin-bottom: 30px;
-	font-size: 13px;
+	font-size: 18px;
 	background-color: transparent;
 }
 
@@ -688,7 +693,7 @@ ol {
 
 .copyright {
 	padding-top: 5px;
-	font-size: 12px;
+	font-size: 18px;
 	color: #838488;
 	line-height: normal;
 }
@@ -852,7 +857,7 @@ ol {
 
 .home-three-style .hero-text h2,
 .home-four-style .hero-text h2 {
-	font-size: 72px;
+	font-size: 30px;
 	margin-bottom: 40px;
 }
 
@@ -1025,7 +1030,7 @@ ol {
 }
 
 .home-five-style .hero-text h2 {
-	font-size: 72px;
+	font-size: 30px;
 	margin-bottom: 40px;
 }
 
@@ -1038,11 +1043,11 @@ ol {
 .home-five-style .social-links a {
 	font-size: 30px;
 	margin-right: 40px;
-	color: #b9b9b9;
+	color: #484848;
 }
 
 .home-five-style .social-links a:hover {
-	color: #484848;
+	color: #b9b9b9;
 }
 
 .home-five-style .resume-list li {
@@ -1131,7 +1136,7 @@ ol {
 }
 
 .home-six-style .hero-text h2 {
-	font-size: 72px;
+	font-size: 30px;
 	margin-bottom: 40px;
 }
 
@@ -1212,7 +1217,7 @@ ol {
 
 @media only screen and (max-width: 1600px) {
 	.hero-text h2 {
-		font-size: 120px;
+		font-size: 30px;
 	}
 }
 
@@ -1339,7 +1344,7 @@ ol {
 		text-align: left;
 	}
 	.hero-text h2 {
-		font-size: 80px;
+		font-size: 30px;
 	}
 	.portfolio-warp {
 		padding: 0;
@@ -1405,7 +1410,7 @@ ol {
 /* small Mobile :320px. */
 @media only screen and (max-width: 479px) {
 	.hero-text h2 {
-		font-size: 50px;
+		font-size: 30px;
 	}
 	.hero-info ul li {
 		font-size: 18px;
@@ -1417,7 +1422,7 @@ ol {
 		margin-right: 30px;
 	}
 	.resume-list h2 {
-		font-size: 50px;
+		font-size: 30px;
 	}
 	.portfolio-item {
 		margin-bottom: 30px;
